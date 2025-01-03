@@ -55,7 +55,7 @@ const Loginpage = () => {
               <FormItem>
                 <FormLabel>password</FormLabel>
                 <FormControl>
-                  <Input placeholder="Password" {...field} />
+                  <Input placeholder="Password" type="password" {...field} />
                 </FormControl>
                 <FormMessage />
               </FormItem>
