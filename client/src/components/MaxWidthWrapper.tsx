@@ -1,7 +1,7 @@
 import { cn } from "@/lib/utils";
 
 type MaxWidthProps = {
-  className: string;
+  className?: string;
   children: React.ReactNode;
 };
 
